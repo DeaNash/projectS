@@ -1,0 +1,77 @@
+body{
+    background-image: url(https://previews.123rf.com/images/leungchopan/leungchopan1506/leungchopan150600626/41731819-cork-board-background.jpg);
+    background-size: cover;
+    
+}
+.w3-lobster {
+    font-family: "Lobster", serif;
+    text-align: center;
+
+  }
+
+#form{
+    background-image: url(../projact/picture/papper.png);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    margin-left: 182px;
+    
+}
+.button {
+    visibility: hidden;
+}
+
+.card{
+    background-image: url(../projact/picture/pinkNote.png);
+    background-color: rgba(0,0,0,.0);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin: 50px;
+    /* padding: 20px; */
+    font-family: cursive;
+    
+  }
+
+form{
+    padding: 37px;
+    position: relative;
+    margin-left: 38px;
+}
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  #first {
+    top: 20px;
+    background-color:palevioletred;
+  }
+  
+  #second {
+    top: 120px;
+    background-color: palevioletred; /* Blue */
+  }
+  
+  #no {
+    top: 220px;
+    background-color: palevioletred; /* Red */
+  }
+  .card-body{
+    padding: 7.25rem;
+    margin: -32px;
+    display: initial;
+    margin-right: -59px;
+
+  }
+  .card-title{
+    overflow:auto
+  }
